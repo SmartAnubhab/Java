@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class NameAndNumber {
     Map<String, Integer> name_number = new HashMap<>();
-    public void start() {
+    public void store() {
         Scanner scanner=new Scanner(System.in);
         int count=name_number.size();
 
