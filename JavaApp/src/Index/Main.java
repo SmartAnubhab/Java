@@ -6,16 +6,15 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        String sentence = "I love java, and I code in it";
+        Scanner scanner=new Scanner(sentence);
 
-        String name="ANUBHAB";
-        Scanner scanner=new Scanner(name);
-        ArrayList<String> nameArray=new ArrayList<>();
+        ArrayList<String> sentenceLine=new ArrayList<>();
 
         while(scanner.hasNext()){
-            nameArray.add(scanner.next());
+            sentenceLine.add(scanner.next());
         }
-
-        System.out.println(nameArray);
+        System.out.println(sentenceLine);
 
     }
 }
