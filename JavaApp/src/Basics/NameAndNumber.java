@@ -4,6 +4,10 @@ import java.util.Scanner;
 import java.util.Map;
 
 public class NameAndNumber {
+    /**
+     * This code needs to be fixed
+     * need to make changes in functionality
+     */
     Map<String, Integer> name_number = new HashMap<>();
     public void store() {
         Scanner scanner=new Scanner(System.in);
