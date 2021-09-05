@@ -3,15 +3,16 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        System.out.println("CALCULATOR");
+        int[] arr=new int[5];
         Scanner scanner=new Scanner(System.in);
 
-        System.out.println("ENTER FIRST VALUE ");
-        float value1=scanner.nextFloat();
-        System.out.println("ENTER SECOND VALUE ");
-        float value2=scanner.nextFloat();
-        float result=value1+value2;
-            System.out.println("THE RESULT IS " + result);
-
+        for(int i=1; i<=5; i++) {
+            System.out.println("ENTER THE NUMBER " + i + " : ");
+            arr[i-1] = scanner.nextInt();
+        }
+        System.out.println("The stored values are : ");
+        for (int a: arr){
+            System.out.print(a + " ");
+        }
     }
 }
