@@ -13,6 +13,20 @@ public class Main{
         for (Object each: objects){
             System.out.println(each);
         }
+        String[] words=new String[7];
+        words[0] = "My";
+        words[1] = "name";
+        words[2] = "is";
+        words[3] = "John";
+        words[4] = "Cena";
 
+        for (String word: words){
+            System.out.print(word + " ");
+        }
+        System.out.println();
+        words=new String[10];
+        for (String word: words){
+            System.out.print(word + " ");
+        }
     }
 }
