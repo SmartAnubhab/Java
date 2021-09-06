@@ -1,5 +1,4 @@
-package Basics;
-import java.util.Scanner;
+package basics;
 
 public class ReverseAString {
     private String input;
