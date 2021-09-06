@@ -3,30 +3,22 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        Object[] objects = new Object[5];
-        objects[0] = "Anubhab Mondal";
-        objects[1] = 123;
-        objects[2] = 'A';
-        objects[3] = 12.15;
-        objects[4] = true;
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Please Enter a number between 1 to 3");
+        int a = scanner.nextInt();
+        switch(a){
+            case 1:
+                System.out.println("one");
+                break;
+            case 2:
+                System.out.println("two");
+                break;
+            case 3:
+                System.out.println("three");
+                break;
+            default:
+                System.out.println("none of these");
+        }
 
-        for (Object each: objects){
-            System.out.println(each);
-        }
-        String[] words=new String[7];
-        words[0] = "My";
-        words[1] = "name";
-        words[2] = "is";
-        words[3] = "John";
-        words[4] = "Cena";
-
-        for (String word: words){
-            System.out.print(word + " ");
-        }
-        System.out.println();
-        words=new String[10];
-        for (String word: words){
-            System.out.print(word + " ");
-        }
     }
 }
