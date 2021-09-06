@@ -6,18 +6,22 @@ public class Main{
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please Enter a number between 1 to 3");
         int a = scanner.nextInt();
+        String month = null;
         switch(a){
             case 1:
-                System.out.println("one");
+                month = "January";
                 break;
             case 2:
-                System.out.println("two");
+                month = "February";
                 break;
             case 3:
-                System.out.println("three");
+                month = "March";
                 break;
             default:
-                System.out.println("none of these");
+                System.out.println("month is unknown");
+        }
+        if (month != null) {
+            System.out.println(month);
         }
 
     }
