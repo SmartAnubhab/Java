@@ -1,15 +1,14 @@
 package index;
-import sum.Sum;
-import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("First number : ");
-        float value1=scanner.nextFloat();
-        System.out.println("Second numbe : ");
-        float value2=scanner.nextFloat();
-        Sum.add(value1, value2);
+        System.out.println("Hello world");
+
+        Human human1=new Human("Anubhab Mondal",27);
+        Human human2=new Human("Ankita", 15);
+
+        human1.talk();
+        human2.talk();
 
     }
 }
