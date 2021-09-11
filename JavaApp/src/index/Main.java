@@ -2,13 +2,17 @@ package index;
 
 public class Main{
     public static void main(String[] args){
-        System.out.println("Hello world");
 
-        Human human1=new Human("Anubhab Mondal",27);
-        Human human2=new Human("Ankita", 15);
+        Animal animal=new Animal();
+        animal.eat();
+        Dog dog=new Dog();
+        dog.bark();
+        dog.talk();
 
-        human1.talk();
-        human2.talk();
+        Fish fish=new Fish();
+        fish.swim();
+        fish.talk();
+        fish.eat();
 
     }
 }
