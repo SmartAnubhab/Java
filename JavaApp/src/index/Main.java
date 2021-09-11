@@ -13,6 +13,7 @@ public class Main{
         fish.swim();
         fish.talk();
         fish.eat();
+        dog.sleep();
 
     }
 }
