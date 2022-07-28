@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-        <!ELEMENT name1 (#PCDATA , fid)>
-        <!ELEMENT name2 (#PCDATA , fid) >
-        <!ELEMENT name3 (#PCDATA , fid)>
+        <!ELEMENT name1 (#PCDATA)>
+        <!ELEMENT name2 (#PCDATA) >
+        <!ELEMENT name3 (#PCDATA)>
         <!ELEMENT data (#PCDATA)>
         <!ELEMENT fid (#PCDATA)>
+        <!ATTLIST name fid ID #REQUIRED>
         <!ELEMENT name (name1, name2, name3)>
-        <!ELEMENT office (name, Employee, data)>
+        <!ELEMENT office (name+, Employee, data)>
 
-        <!ELEMENT Employee (emp1, emp2, eid)>
+        <!ELEMENT Employee (emp1, emp2)>
         <!ELEMENT eid (#PCDATA)>
         <!ELEMENT emp1 (#PCDATA)>
         <!ELEMENT emp2 (#PCDATA)>
         <!ELEMENT emp3 (#PCDATA)>
+        <!ATTLIST Employee eid ID #REQUIRED>
