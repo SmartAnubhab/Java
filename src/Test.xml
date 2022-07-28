@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<!DOCTYPE office SYSTEM "grammer.dtd">
 <office>
-	<meta/>
+
 	<data>this is a xml file</data>
 	<name>
 		<name1 fid="1">Anubhab Mondal</name1>
@@ -12,4 +13,5 @@
 		<emp1 eid="100">Navin Bansal</emp1>
 		<emp2 eid="101">Navin Reddy</emp2>
 	</Employee>
+
 </office>
