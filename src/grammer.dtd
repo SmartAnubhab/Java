@@ -5,4 +5,6 @@
         <!ELEMENT name (#PCDATA)>
         <!ELEMENT salary (#PCDATA)>
         <!ATTLIST employee eid ID #REQUIRED>
-        <!ATTLIST employee lang #REQUIRED>
+        <!ATTLIST employee lang (Java|Python|ASP.NET) "Java">
+
+
