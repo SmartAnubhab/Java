@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!ELEMENT office(name)>
+        <!ELEMENT name1 (#PCDATA)>
+        <!ELEMENT name2 (#PCDATA)>
+        <!ELEMENT name3 (#PCDATA)>
+        <!ELEMENT name (name1, name2, name3)>
+        <!ELEMENT office (name)>
+
+        <!ELEMENT Employee (emp1, emp2)>
+        <!ELEMENT emp1 (#PCDATA)>
+        <!ELEMENT emp2 (#PCDATA)>
+        <!ELEMENT emp3 (#PCDATA)>

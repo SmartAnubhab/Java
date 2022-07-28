@@ -4,9 +4,9 @@
 	<meta/>
 	<data>this is a xml file</data>
 	<name>
-		<name1>Anubhab Mondal</name1>
-		<name2>Ankita Mondal</name2>
-		<name3>Madhumita Mondal</name3>
+		<name1 fid="1">Anubhab Mondal</name1>
+		<name2 fid="2">Ankita Mondal</name2>
+		<name3 fid="3">Madhumita Mondal</name3>
 	</name>
 	<Employee>
 		<emp1 eid="100">Navin Bansal</emp1>
