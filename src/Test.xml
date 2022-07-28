@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!DOCTYPE office SYSTEM "grammer.dtd">
+<!DOCTYPE office SYSTEM="grammer.dtd">
 <office>
-
-
-	<Employee>
-		<emp eid="A100">
-			<name>Navin Bansal</name>
-			<salary>85000</salary>
-		</emp>
-		<emp eid="A101">
-			<name>Navin Reddy</name>
-			<salary>80000</salary>
-		</emp>
-	</Employee>
-
+    <employee eid="B3935">
+        <name>Anubhab Mondal</name>
+        <salary>28,064</salary>
+    </employee>
+    <employee eid="B3936">
+        <name>Anupriya Ray</name>
+        <salary>30,000</salary>
+    </employee>
 </office>
