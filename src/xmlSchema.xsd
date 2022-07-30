@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema">
-    
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.example.com/alienSchema"
+xmlns:tns="http://www.example.com/alienSchema"
+elementFormDefault="qualified">
 </schema>
