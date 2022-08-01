@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://google.com"
+xmlns:tns="http://www.w3.org/1999/xhtml"
+elementFormDefault="qualified">
 
-
-
->
+    
 
 </schema>
