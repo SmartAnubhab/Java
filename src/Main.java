@@ -11,6 +11,6 @@ public class Main {
 
         int result=num1+num2;
 
-        System.out.println("Result is ");
+        System.out.println("Result is : " + result);
     }
 }
